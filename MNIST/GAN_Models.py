@@ -143,7 +143,7 @@ class Dis(nn.Module):
 
 
 class DC_Generator(nn.Module):
-    def __init__(self, nc, nz, ngf):    
+    def __init__(self, nc=1, nz=100, ngf=28):    
       """
       nc--- number of channels in output img = 1 for MNIST
       nz-----dimension of z latent space
@@ -173,7 +173,7 @@ class DC_Generator(nn.Module):
       return output
 
 class DC_Discriminator(nn.Module):
-    def __init__(self, nc, ndf):
+    def __init__(self, nc=1, ndf=28):
         """
         
 
