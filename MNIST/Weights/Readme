@@ -1,1 +1,3 @@
-
+Classifier.pth = trained used Net() and un normlaised data
+Classifier_CNN.pth = trained used Net() and normalised data
+Classifier_CNN_logits = trained ussing Net_logits() and normalised data
