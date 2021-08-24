@@ -132,8 +132,9 @@ class Net_logits(nn.Module):
         x = F.relu(x)
         x = self.dropout2(x)
         x = self.fc2(x)
+        output = F.softmax(x, dim=1)
         
-        return x
+        return output , x
 
 
 # GAN without the convolutional operation
