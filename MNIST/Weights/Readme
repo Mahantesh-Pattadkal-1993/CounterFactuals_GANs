@@ -3,3 +3,7 @@ Classifier_CNN.pth = trained used Net() and normalised data
 Classifier_CNN_logits = trained ussing Net_logits() and normalised data
 
 pytoech_cnn = Eoins classifier
+
+D_cp_199, G_cp_199 = using normlaisd data
+D_cp_149, G_cp_149 = using normlaisd data
+
